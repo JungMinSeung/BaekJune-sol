@@ -7,4 +7,4 @@ for i in range(C):
         if stu_score[index]>avg:
             cnt+=1
     ratio=(cnt/stu_score[0])*100
-    print('{:0.3f}%%'.format(ratio))
+    print('{:0.3f}%'.format(ratio))
